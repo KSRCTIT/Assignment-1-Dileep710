@@ -5,7 +5,6 @@ class Program
     {
         int correctPin = 1234;
         int tries = 0;
-
         while (tries < 3)
         {
             Console.Write("Enter PIN: ");
@@ -22,7 +21,6 @@ class Program
                 tries++;
             }
         }
-
         Console.WriteLine("Card Blocked");
     }
 }
